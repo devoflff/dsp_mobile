@@ -1,0 +1,113 @@
+
+#header {
+	width: 100%;
+}
+
+.clearfix:after {
+	/*最简方式*/
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.clearfix {
+	/*兼容 IE*/
+	zoom: 1;
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+.picBack {
+	width: 380px;
+	height: 60px;
+	background: url('../images/ph06.jpg') no-repeat center;
+}
+
+.content {
+	height: 59px;
+	border-bottom: 1px solid #F6DCDF;
+	width: calc(100% - (924px));
+}
+.welcome {
+	margin-top: 35px;
+    //margin-left: 0px;
+    margin-right: 20px;
+    text-align:right;
+}
+.h10{
+	height:5px;
+	background:#D21E1D;
+}
+
+#main{
+	min-height: 750px;
+	background-color: #F0F4F7;
+}
+#nav {
+	line-height: 30px;
+	background-color: #F0F4F7;
+	width: 16%;
+	min-height: 750px;
+	float: left;
+}
+
+#section {
+	float: left;
+	width: 84%;
+}
+#myManu{
+	background:#fff;
+	width: 100%;
+	min-height: 750px;
+	background-color: #F0F4F7;
+}
+.panel-group {
+	max-height: 770px;
+	overflow: auto;
+}
+
+.leftMenu .panel-heading {
+	font-size: 14px;
+	padding-left: 20px;
+	height: 36px;
+	line-height: 36px;
+	color: white;
+	position: relative;
+	cursor: pointer;
+}
+
+
+/*转成手形图标*/
+
+.leftMenu .panel-heading span {
+	position: absolute;
+	right: 10px;
+	top: 12px;
+}
+
+.leftMenu .menu-item-left {
+	padding: 2px;
+	background: transparent;
+	border: 1px solid transparent;
+	border-radius: 6px;
+}
+
+.leftMenu .menu-item-left:hover {
+	background: #C4E3F3;
+	border: 1px solid #1E90FF;
+}
+
+
+/*#footer {
+    background-color:black;
+    height: 40px;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}*/
